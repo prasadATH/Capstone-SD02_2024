@@ -1,4 +1,4 @@
-package com.ccp.demo.model;
+package com.joelcodes.studentsystem.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,9 +17,21 @@ public class Traveller {
     private String username;
     private String password;
 
+    private String Otp;
 
 
 
+
+
+
+
+    public String getOtp() {
+        return Otp;
+    }
+
+    public void setOtp(String otp) {
+        Otp = otp;
+    }
 
     public int getId() {
         return id;

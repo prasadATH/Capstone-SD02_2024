@@ -1,9 +1,10 @@
-package com.ccp.demo.model;
+package com.joelcodes.studentsystem.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+
 
 @Entity
 public class Student {
