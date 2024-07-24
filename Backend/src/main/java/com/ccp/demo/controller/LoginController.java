@@ -1,13 +1,11 @@
-package com.ccp.demo.controller;
-
-import com.ccp.demo.service.StudentService;
-import com.ccp.demo.model.Traveller;
+package com.joelcodes.studentsystem.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import com.joelcodes.studentsystem.service.StudentService;
+import com.joelcodes.studentsystem.model.Traveller;
 @RestController
 @RequestMapping("/auth")
 @CrossOrigin
